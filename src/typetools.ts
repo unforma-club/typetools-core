@@ -51,13 +51,13 @@ const load = (url: string) => {
 	});
 };
 
-/**
- * Only works on `node` environment
- */
-const loadSync = (url: string) => {
-	const fs = require("fs");
-	const buffer = fs.readFileSync(url);
-	return parseBuffer(bufferToArrayBuffer(buffer));
-};
+// /**
+//  * Only works on `node` environment
+//  */
+// const loadSync = (url: string) => {
+// 	const fs = require("fs");
+// 	const buffer = fs.readFileSync(url);
+// 	return parseBuffer(bufferToArrayBuffer(buffer));
+// };
 
-export { load, loadSync };
+export { load };
