@@ -1,6 +1,6 @@
 {
 	"name": "typetools-core",
-	"version": "1.0.0-alpha.1",
+	"version": "1.0.0-alpha.2",
 	"description": "Typetools core",
 	"main": "dist/index",
 	"repository": "https://github.com/unforma-club/typetools-core.git",
